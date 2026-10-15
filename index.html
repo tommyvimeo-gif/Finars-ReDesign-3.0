@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIN ARS | Center za arhitekturo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">FIN <span>ARS</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="active">Domov</a>
+        <a href="projekti.html">Projekti</a>
+        <a href="info.html">Info</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Meni">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Arhitekturni biro od 2005</p>
+      <h1>Prostor, ki živi z vami</h1>
+      <p class="hero-lead">FIN ARS – center za arhitekturo, gradbeno projektiranje in oblikovanje interierja v Zagorju ob Savi.</p>
+      <div class="hero-actions">
+        <a href="projekti.html" class="btn btn-primary">Oglej projekte</a>
+        <a href="kontakt.html" class="btn btn-outline">Kontakt</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Naše storitve</h2>
+        <p>Celovita arhitekturna podpora od ideje do izvedbe</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">📐</div>
+          <h3>Projektna dokumentacija</h3>
+          <p>Izdelava dokumentacije za zahtevne in manj zahtevne objekte, PGD, PZI in izvedbene projekte.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🗺️</div>
+          <h3>OPPN</h3>
+          <p>Priprava dokumentacije za občinske podrobne prostorske načrte.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🛋️</div>
+          <h3>Interier</h3>
+          <p>Oblikovanje notranjih prostorov – od koncepta do detajlov.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">✅</div>
+          <h3>Gradbena dovoljenja & nadzor</h3>
+          <p>Vodenje postopkov za pridobitev gradbenega dovoljenja in projektantski nadzor.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta">
+    <div class="container cta-inner">
+      <h2>Imate projekt v mislih?</h2>
+      <p>Stopite v stik z nami – skupaj ustvarimo prostor, ki ustreza vašim potrebam.</p>
+      <a href="kontakt.html" class="btn btn-primary">Pišite nam</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>FIN ARS d.o.o.</strong><br>
+        Podvine 36, 1410 Zagorje ob Savi
+      </div>
+      <div>
+        <a href="mailto:info@finars.si">info@finars.si</a><br>
+        03 566 05 46 · 041 686 959
+      </div>
+      <div class="footer-note">
+        © 2026 FIN ARS · ReDesign 3.0
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <img src="" alt="" id="lightboxImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
