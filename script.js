@@ -7,6 +7,22 @@ if (navToggle && mainNav) {
   });
 }
 
+// Hero crossfade slideshow
+(function () {
+  const slides = document.querySelectorAll('.hero-slide');
+  if (!slides.length) return;
+  let current = 0;
+  const INTERVAL = 5500;
+
+  function nextSlide() {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }
+
+  setInterval(nextSlide, INTERVAL);
+})();
+
 // Lightbox / Zoom
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightboxImg');
